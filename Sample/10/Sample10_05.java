@@ -1,0 +1,29 @@
+package Sample10;
+
+import lib.Input;
+
+public class Sample10_05 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		int sansei = 0, hantai = 0,  data;
+		
+		while ((data = Input.getInt()) != 0) {
+			
+			if (data == 1) {
+				
+				sansei ++;
+				
+			} else {
+				
+				hantai ++;
+				
+			}
+			
+		}	
+			System.out.println("賛成 = " + sansei);
+			System.out.println("反対 = " + hantai);
+		
+	}
+
+}
