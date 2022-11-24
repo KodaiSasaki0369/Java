@@ -1,0 +1,24 @@
+package Exercises11;
+
+public class Ex11_03_1 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		double[] data = {2.5, 3.3, 7.0, -4.5, 5.2};
+		
+		for (double x : data) {
+			
+			if (x < 0) {
+				
+				System.out.println("不正なデータ : " + x);
+				
+				break;
+			}
+			
+			System.out.println(Math.sqrt(x));
+		}
+		
+	}
+
+}
